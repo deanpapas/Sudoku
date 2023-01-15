@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        Path puzzlepath = Paths.get("lib/Extreme_Puzzle");
+        Path puzzlepath = Paths.get("Sudoku/lib/Extreme_Puzzle");
         int[][] puzzle = puzzleReader(puzzlepath);
 
         System.out.println("===========================");
